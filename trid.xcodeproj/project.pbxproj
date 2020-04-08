@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BDAC483243D8CC100B8368F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BDAC482243D8CC100B8368F /* GoogleService-Info.plist */; };
+		8B445D2D243E29ED0022E525 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B445D2C243E29ED0022E525 /* GoogleService-Info.plist */; };
 		9DB86CF490E21E981E4DFCBA /* Pods_trid_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D659989000FADDD291B9BE14 /* Pods_trid_dev.framework */; };
 		C10001011E9B614300C9DFAA /* ic_cross_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C10000F41E9B614300C9DFAA /* ic_cross_white@2x.png */; };
 		C10001041E9B614300C9DFAA /* ic_cross_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C10000F51E9B614300C9DFAA /* ic_cross_white@3x.png */; };
@@ -253,7 +253,7 @@
 		287AA28F2FE6045657DA4EFE /* Pods-trid-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trid-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-trid-dev/Pods-trid-dev.debug.xcconfig"; sourceTree = "<group>"; };
 		326E7633E1B1E0D27F80E60F /* Pods_trid_distribution.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trid_distribution.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		417D3BC2B20AE5C95594160A /* Pods-trid-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trid-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-trid-dev/Pods-trid-dev.release.xcconfig"; sourceTree = "<group>"; };
-		8BDAC482243D8CC100B8368F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8B445D2C243E29ED0022E525 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		BA7DA7FC878802F3D8BB17A8 /* Pods-trid-distribution.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trid-distribution.debug.xcconfig"; path = "Pods/Target Support Files/Pods-trid-distribution/Pods-trid-distribution.debug.xcconfig"; sourceTree = "<group>"; };
 		C10000F41E9B614300C9DFAA /* ic_cross_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_cross_white@2x.png"; sourceTree = "<group>"; };
 		C10000F51E9B614300C9DFAA /* ic_cross_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_cross_white@3x.png"; sourceTree = "<group>"; };
@@ -613,7 +613,7 @@
 		C102E0611DE8452C00710A6C /* dev */ = {
 			isa = PBXGroup;
 			children = (
-				8BDAC482243D8CC100B8368F /* GoogleService-Info.plist */,
+				8B445D2C243E29ED0022E525 /* GoogleService-Info.plist */,
 			);
 			path = dev;
 			sourceTree = "<group>";
@@ -1835,7 +1835,7 @@
 				C1978E3C1D9A700F00C59E82 /* Roboto-MediumItalic.ttf in Resources */,
 				C1F7CC421DAE26CE005B975C /* DetailReadmoreViewController.xib in Resources */,
 				C13D966B1E52FA11000DDAAB /* TabbarButton.xib in Resources */,
-				8BDAC483243D8CC100B8368F /* GoogleService-Info.plist in Resources */,
+				8B445D2D243E29ED0022E525 /* GoogleService-Info.plist in Resources */,
 				C1CAFB391DB8A32700000953 /* DropDownCell.xib in Resources */,
 				C1D550091DACE76200B99E47 /* CategoryPageCell.xib in Resources */,
 				C13650681E1124AD009C3688 /* FilterSubcategoryCell.xib in Resources */,

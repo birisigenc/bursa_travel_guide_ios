@@ -99,7 +99,7 @@ class AllCitiesViewController: MainBaseViewController, UITableViewDelegate, UITa
     
     func createBannerAd() {
         let bannerView: GADBannerView = GADBannerView(adSize: kGADAdSizeBanner)
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        bannerView.adUnitID = "ca-app-pub-7008318051221096/1058994010"
         bannerView.rootViewController = self
         bannerView.translatesAutoresizingMaskIntoConstraints = false
         viewBanner.addSubview(bannerView)
@@ -198,7 +198,7 @@ class AllCitiesViewController: MainBaseViewController, UITableViewDelegate, UITa
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let city = allCities[indexPath.row]
         if city.getDeactived() && (AppState.currentUser == nil || !AppState.currentUser!.checkAdmin()){
-            self.view.makeToast("Coming Soon")
+            self.view.makeToast("Updating")
             return
         }
         if city.getState() == .Paid {

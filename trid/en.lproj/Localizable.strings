@@ -8,10 +8,10 @@
 
 // ----------------------- APP --------------------------
 "App Name" = "trid";
-"App Full Name" = "Travel Guide \nTemplate";
-"App Slogan 1" = "Lorem Ipsum is simply text 1";
-"App Slogan 2" = "Lorem Ipsum is simply text 2";
-"App Slogan 3" = "Lorem Ipsum is simply text 3";
+"App Full Name" = "Bursa Travel \nGuide";
+"App Slogan 1" = "Welcome to the Most Beautiful City of All Time";
+"App Slogan 2" = "Offline Map and Contents";
+"App Slogan 3" = "See which is place near to you";
 
 // ----------------------- Screen Login --------------------------
 "Connect with Facebook" = "Continue with Facebook";
@@ -61,7 +61,7 @@
 // ----------------------- Explore/Discover --------------------------
 "Home" = "HOME";
 // Tabbar
-"All Cities" = "All Cities";
+"All Cities" = "Bursa";
 "Explore" = "Explore";
 "Saved" = "Saved";
 "No data" = "No data";

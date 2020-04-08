@@ -10,9 +10,9 @@ import Foundation
 import PureLayout
 
 struct AppUrl {
-    static let website = "https://your.url"
-    static let term = "https://your.url/terms/"
-    static let privacy = "https://your.url/privacy-policy/"
+    static let website = "https://bursatouristguide.com"
+    static let term = "https://bursatouristguide.com/privacy-policy.htm"
+    static let privacy = "https://bursatouristguide.com/privacy-policy.htm"
 }
 
 struct AppSetting {
@@ -22,14 +22,14 @@ struct AppSetting {
     
     struct Visa {
         static let id = "your.id"
-        static let url = "visa.url"
+        static let url = "https://www.evisa.gov.tr/en/"
     }
     
     // App name
     struct App {
-        static let name = "trid"
-        static let email = "demo@trid.com"
-        static let teamName = "LeBro Team"
+        static let name = "Ali Dindar"
+        static let email = "ali@alidindar.com"
+        static let teamName = "Ali Dindar"
         static let appStoreId = ""
         static let iOSAppStoreURLFormat = "itms-apps://itunes.apple.com/app/id" // 7 and down
         // dashboard

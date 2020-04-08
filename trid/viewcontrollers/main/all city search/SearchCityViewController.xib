@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina5_9" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -14,7 +12,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchCityViewController" customModule="trid_dev" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchCityViewController" customModule="Bursa_Travel_Guide" customModuleProvider="target">
             <connections>
                 <outlet property="btnBack" destination="8wX-nP-Bzd" id="dWM-OW-bqN"/>
                 <outlet property="tableResult" destination="bPw-o7-Ldi" id="D4E-ZH-rla"/>
@@ -40,7 +38,7 @@
                                 <action selector="actionBack:" destination="-1" eventType="touchUpInside" id="Ylo-L2-1yE"/>
                             </connections>
                         </button>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search cities" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pl0-Tv-wm5">
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search in Bursa" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pl0-Tv-wm5">
                             <rect key="frame" x="44" y="5" width="311" height="34"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -85,6 +83,7 @@
                 <constraint firstAttribute="trailing" secondItem="N9W-LH-r5m" secondAttribute="trailing" id="uGv-pD-cR1"/>
                 <constraint firstItem="bPw-o7-Ldi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ukH-Vy-bR1"/>
             </constraints>
+            <point key="canvasLocation" x="140" y="154"/>
         </view>
     </objects>
     <resources>
