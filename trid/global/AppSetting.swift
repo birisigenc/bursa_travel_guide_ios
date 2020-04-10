@@ -10,9 +10,9 @@ import Foundation
 import PureLayout
 
 struct AppUrl {
-    static let website = "https://bursatouristguide.com"
-    static let term = "https://bursatouristguide.com/privacy-policy.htm"
-    static let privacy = "https://bursatouristguide.com/privacy-policy.htm"
+    static let website = "https://www.bursatouristguide.com/"
+    static let term = "https://www.bursatouristguide.com/privacy-policy.htm"
+    static let privacy = "https://www.bursatouristguide.com/privacy-policy.htm"
 }
 
 struct AppSetting {

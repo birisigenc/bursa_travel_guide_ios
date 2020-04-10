@@ -7,11 +7,11 @@
 */
 
 // ----------------------- APP --------------------------
-"App Name" = "trid";
+"App Name" = "Bursa Travel Guide";
 "App Full Name" = "Bursa Travel \nGuide";
-"App Slogan 1" = "Welcome to the Most Beautiful City of All Time";
-"App Slogan 2" = "Offline Map and Contents";
-"App Slogan 3" = "See which is place near to you";
+"App Slogan 1" = "Welcome to the Most Beautiful City of All Times";
+"App Slogan 2" = "Easily find places near you";
+"App Slogan 3" = "Offline Content and Map";
 
 // ----------------------- Screen Login --------------------------
 "Connect with Facebook" = "Continue with Facebook";
@@ -43,7 +43,7 @@
 "Click out side to close" = "Click out side to close";
 
 // ----------------------- Menu --------------------------
-"Book ticket" = "Book ticket";
+"Book ticket" = "Tourism Office";
 "My Plan" = "My Plan";
 "My Post" = "My Post";
 "Favorite" = "Favorite";

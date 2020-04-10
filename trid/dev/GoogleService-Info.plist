@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1022562414450-d99kc119c0acu72rum2nd2oak4vnkatj.apps.googleusercontent.com</string>
+	<string>1096549086766-h0jj75a96c6o16h6pm77o2n3kmr54cdk.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1022562414450-d99kc119c0acu72rum2nd2oak4vnkatj</string>
+	<string>com.googleusercontent.apps.1096549086766-h0jj75a96c6o16h6pm77o2n3kmr54cdk</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1096549086766-clv61gon4i8kp1kkuvcan41von93k51o.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyC0LJyophU39GkC26GHQDPVWUgBza2OBnk</string>
+	<string>AIzaSyDjgY0mV1qZcOKL5I_D1nSirlPZdUm83OE</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1022562414450</string>
+	<string>1096549086766</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.trid.demo</string>
+	<string>com.bursa.tourist.app</string>
 	<key>PROJECT_ID</key>
-	<string>tridme-demo</string>
+	<string>bursa-travel-guide-6fc11</string>
 	<key>STORAGE_BUCKET</key>
-	<string>tridme-demo.appspot.com</string>
+	<string>bursa-travel-guide-6fc11.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +31,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1022562414450:ios:5331d88a50f9f0ca</string>
+	<string>1:1096549086766:ios:73b5c833d9bc83b3d211bf</string>
 	<key>DATABASE_URL</key>
-	<string>https://tridme-demo.firebaseio.com</string>
+	<string>https://bursa-travel-guide-6fc11.firebaseio.com</string>
 </dict>
 </plist>

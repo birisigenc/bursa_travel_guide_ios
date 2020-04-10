@@ -185,9 +185,9 @@ PODS:
   - nanopb/encode (0.3.9011)
   - Protobuf (3.11.4)
   - PureLayout (3.1.5)
-  - SDWebImage (5.6.1):
-    - SDWebImage/Core (= 5.6.1)
-  - SDWebImage/Core (5.6.1)
+  - SDWebImage (5.7.1):
+    - SDWebImage/Core (= 5.7.1)
+  - SDWebImage/Core (5.7.1)
   - SwiftyJSON (5.0.0)
   - Toast-Swift (4.0.1)
   - TTRangeSlider (1.0.6)
@@ -298,7 +298,7 @@ SPEC CHECKSUMS:
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   Protobuf: 176220c526ad8bd09ab1fb40a978eac3fef665f7
   PureLayout: 9b4ad47b2f0388c84ff534af23d96e720c1b875a
-  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+  SDWebImage: 5d4cf6afccd9ac1d2ee701ed0c4917cbb1b80536
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
   TTRangeSlider: 78188bea83f6471a06f75adbc88da5e990baeafe

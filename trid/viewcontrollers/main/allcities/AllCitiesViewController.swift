@@ -198,7 +198,7 @@ class AllCitiesViewController: MainBaseViewController, UITableViewDelegate, UITa
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let city = allCities[indexPath.row]
         if city.getDeactived() && (AppState.currentUser == nil || !AppState.currentUser!.checkAdmin()){
-            self.view.makeToast("Updating")
+            self.view.makeToast("Coming Soon")
             return
         }
         if city.getState() == .Paid {
