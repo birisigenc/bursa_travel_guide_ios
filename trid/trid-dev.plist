@@ -40,9 +40,9 @@
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FacebookAppID</key>
-	<string>your.facebook.app.id</string>
+	<string>589958258452813</string>
 	<key>FacebookDisplayName</key>
-	<string>Trid-dev</string>
+	<string>Bursa Travel Guide</string>
 	<key>FirebaseAppDelegateProxyEnabled</key>
 	<false/>
 	<key>GADApplicationIdentifier</key>
@@ -68,7 +68,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>App explanation for alway: &quot;The app requires your current location to help navigate and recommend places better.&quot;</string>
+	<string>App explanation for always: "The app requires your current location to help navigate and recommend places better in Bursa"</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Roboto-Black.ttf</string>

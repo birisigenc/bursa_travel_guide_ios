@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina5_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -20,7 +18,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="trid_dev" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="Bursa_Travel_Guide" customModuleProvider="target">
             <connections>
                 <outlet property="btnClose" destination="bz1-Pn-mWb" id="gLB-Gb-bZd"/>
                 <outlet property="btnEmailForgotPass" destination="BIb-Wa-G0U" id="HdT-NB-LLw"/>
@@ -59,7 +57,7 @@
                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kqw-e9-gmz" userLabel="View home">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9B7-ON-x2a" customClass="ImageSlideshow" customModule="trid_dev" customModuleProvider="target">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9B7-ON-x2a" customClass="ImageSlideshow" customModule="Bursa_Travel_Guide" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
@@ -67,7 +65,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         </imageView>
-                        <view userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fmS-7R-OiQ" customClass="GradientLayer" customModule="trid_dev" customModuleProvider="target">
+                        <view userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fmS-7R-OiQ" customClass="GradientLayer" customModule="Bursa_Travel_Guide" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="586" width="414" height="150"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
@@ -256,7 +254,7 @@
                             <color key="textColor" red="0.44705882352941173" green="0.44705882352941173" blue="0.44705882352941173" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b11-y3-hPQ" customClass="Segmentio" customModule="trid_dev" customModuleProvider="target">
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b11-y3-hPQ" customClass="Segmentio" customModule="Bursa_Travel_Guide" customModuleProvider="target">
                             <rect key="frame" x="40" y="219" width="334" height="40"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
@@ -266,7 +264,7 @@
                         <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NJQ-Lg-pBZ" userLabel="View email sign in">
                             <rect key="frame" x="0.0" y="279" width="414" height="457"/>
                             <subviews>
-                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="sdg-Ng-1sQ" customClass="TridTextField" customModule="trid_dev" customModuleProvider="target">
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="sdg-Ng-1sQ" customClass="TridTextField" customModule="Bursa_Travel_Guide" customModuleProvider="target">
                                     <rect key="frame" x="40" y="0.0" width="334" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="NUg-zX-r6N"/>
@@ -278,7 +276,7 @@
                                         <outlet property="delegate" destination="-1" id="C0v-If-q2l"/>
                                     </connections>
                                 </textField>
-                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="AxS-EA-VbB" customClass="TridTextField" customModule="trid_dev" customModuleProvider="target">
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="AxS-EA-VbB" customClass="TridTextField" customModule="Bursa_Travel_Guide" customModuleProvider="target">
                                     <rect key="frame" x="40" y="50" width="334" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="MDk-cG-5mo"/>
@@ -290,7 +288,7 @@
                                         <outlet property="delegate" destination="-1" id="dUV-Ta-vUN"/>
                                     </connections>
                                 </textField>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3go-Kb-jDW" customClass="TKTransitionSubmitButton" customModule="trid_dev" customModuleProvider="target">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3go-Kb-jDW" customClass="TKTransitionSubmitButton" customModule="Bursa_Travel_Guide" customModuleProvider="target">
                                     <rect key="frame" x="40" y="110" width="334" height="54"/>
                                     <color key="backgroundColor" red="0.12941176469999999" green="0.58823529409999997" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
@@ -341,7 +339,7 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yac-wQ-b3l" userLabel="View email sign up">
                             <rect key="frame" x="0.0" y="279" width="414" height="457"/>
                             <subviews>
-                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="6xc-34-5bs" customClass="TridTextField" customModule="trid_dev" customModuleProvider="target">
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="6xc-34-5bs" customClass="TridTextField" customModule="Bursa_Travel_Guide" customModuleProvider="target">
                                     <rect key="frame" x="40" y="0.0" width="334" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="PJ9-tk-ayA"/>
@@ -353,7 +351,7 @@
                                         <outlet property="delegate" destination="-1" id="T99-c2-eSj"/>
                                     </connections>
                                 </textField>
-                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="gar-Ff-Sjj" customClass="TridTextField" customModule="trid_dev" customModuleProvider="target">
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="gar-Ff-Sjj" customClass="TridTextField" customModule="Bursa_Travel_Guide" customModuleProvider="target">
                                     <rect key="frame" x="40" y="50" width="334" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="Q6p-gD-rqB"/>
@@ -365,7 +363,7 @@
                                         <outlet property="delegate" destination="-1" id="jlB-J8-dqZ"/>
                                     </connections>
                                 </textField>
-                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ysW-Js-L19" customClass="TridTextField" customModule="trid_dev" customModuleProvider="target">
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ysW-Js-L19" customClass="TridTextField" customModule="Bursa_Travel_Guide" customModuleProvider="target">
                                     <rect key="frame" x="40" y="100" width="334" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="t0x-NL-c6y"/>
@@ -377,7 +375,7 @@
                                         <outlet property="delegate" destination="-1" id="T6M-mn-rld"/>
                                     </connections>
                                 </textField>
-                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm password" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="cvo-a2-dIX" customClass="TridTextField" customModule="trid_dev" customModuleProvider="target">
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm password" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="cvo-a2-dIX" customClass="TridTextField" customModule="Bursa_Travel_Guide" customModuleProvider="target">
                                     <rect key="frame" x="40" y="150" width="334" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="caY-dA-D9w"/>
@@ -389,7 +387,7 @@
                                         <outlet property="delegate" destination="-1" id="Ge6-Sz-Ig4"/>
                                     </connections>
                                 </textField>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3f-e2-dsy" customClass="TKTransitionSubmitButton" customModule="trid_dev" customModuleProvider="target">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3f-e2-dsy" customClass="TKTransitionSubmitButton" customModule="Bursa_Travel_Guide" customModuleProvider="target">
                                     <rect key="frame" x="40" y="205" width="334" height="54"/>
                                     <color key="backgroundColor" red="0.12941176470588234" green="0.58823529411764708" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>

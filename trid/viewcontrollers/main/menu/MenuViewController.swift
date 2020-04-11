@@ -51,7 +51,6 @@ class MenuViewController: UIViewController {
     let menuSections = ["", Localized.information,
                         "", Localized.aboutApp]
     let menuTitles = [Int(0): [MenuType.allCities,
-                               MenuType.bookTicket,
                                 MenuType.visaOnline],
                       Int(1): [MenuType.aboutApp,
                                MenuType.privacy,
@@ -61,7 +60,6 @@ class MenuViewController: UIViewController {
                                MenuType.logOut]]
     
     let menuNotSignedTitles = [Int(0): [MenuType.allCities,
-                                        MenuType.bookTicket,
                                         MenuType.visaOnline],
                                Int(1): [MenuType.aboutApp,
                                         MenuType.privacy,
@@ -70,7 +68,6 @@ class MenuViewController: UIViewController {
                                         /*MenuType.setting*/]]
     
     let titles = [MenuType.allCities: Localized.AllCities.uppercased(),
-                  MenuType.bookTicket: Localized.BookTicket.uppercased(),
                   MenuType.visaOnline: Localized.VisaOnline.uppercased(),
                   MenuType.myPlan: Localized.myPlan,
                   MenuType.myPost: Localized.myPost,
@@ -84,7 +81,6 @@ class MenuViewController: UIViewController {
                   MenuType.logOut: Localized.logOut]
     
     let icons = [MenuType.allCities: "menu-allcities",
-                 MenuType.bookTicket: "menu-tickets",
                  MenuType.visaOnline: "menu-passport",
                  MenuType.myPlan: "menu-myplan",
                  MenuType.myPost: "menu-mypost",
