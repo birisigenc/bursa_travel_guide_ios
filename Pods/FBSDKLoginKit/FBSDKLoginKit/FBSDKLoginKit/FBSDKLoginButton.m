@@ -280,7 +280,7 @@ static const CGFloat kPaddingBetweenLogoTitle = 8.0;
 - (NSString *)_longLogInTitle
 {
   return NSLocalizedStringWithDefaultValue(@"LoginButton.LogInContinue", @"FacebookSDK", [FBSDKInternalUtility bundleForStrings],
-                                           @"Continue with Facebook",
+                                           @"",
                                            @"The long label for the FBSDKLoginButton when the user is currently logged out");
 }
 

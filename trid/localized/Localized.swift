@@ -15,7 +15,7 @@ struct Localized {
     static let AppSlogan3 = "App Slogan 3".localized
     
     // ----------------------- Screen Login --------------------------
-    static let connectWithFacebook = "Connect with Facebook".localized
+    static let connectWithFacebook = "".localized
     static let connectWithGoogle = "Connect with Google".localized
     static let connectWithEmail = "Connect with Email".localized
     static let skip = "Skip".localized
