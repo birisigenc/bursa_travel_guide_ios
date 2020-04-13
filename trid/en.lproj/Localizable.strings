@@ -10,7 +10,7 @@
 "App Name" = "Bursa Travel Guide";
 "App Full Name" = "Bursa Travel \nGuide";
 "App Slogan 1" = "Welcome to the Most Beautiful City of All Times";
-"App Slogan 2" = "Easily find places near you";
+"App Slogan 2" = "Easily to Find Places Near You";
 "App Slogan 3" = "Offline Content and Map";
 
 // ----------------------- Screen Login --------------------------
@@ -55,7 +55,7 @@
 "Review App" = "Review App";
 "Setting" = "Setting";
 "Log Out" = "Log Out";
-"Version" = "Version";
+"Version" = "Created by Ali Dindar - Version";
 "Visa Online" = "Visa Online";
 
 // ----------------------- Explore/Discover --------------------------

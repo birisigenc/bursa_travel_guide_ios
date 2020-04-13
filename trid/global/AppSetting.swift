@@ -30,7 +30,7 @@ struct AppSetting {
         static let name = "Ali Dindar"
         static let email = "ali@alidindar.com"
         static let teamName = "Ali Dindar"
-        static let appStoreId = ""
+        static let appStoreId = "1497430376"
         static let iOSAppStoreURLFormat = "itms-apps://itunes.apple.com/app/id" // 7 and down
         // dashboard
         static var headerHeight : CGFloat {
