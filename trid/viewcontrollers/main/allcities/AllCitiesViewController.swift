@@ -54,7 +54,7 @@ class AllCitiesViewController: MainBaseViewController, UITableViewDelegate, UITa
                 imgViewTitle.autoSetDimensions(to: CGSize(width: 30, height: 30))
                 alert.view.clipsToBounds = true
                 
-                let nah = UIAlertAction(title: "Nah", style: UIAlertAction.Style.default, handler: nil)
+                let nah = UIAlertAction(title: "Nope", style: UIAlertAction.Style.default, handler: nil)
                 nah.setValue(UIColor(netHex: AppSetting.Color.gray), forKey: "titleTextColor")
                 alert.addAction(nah)
                 alert.addAction(UIAlertAction(title: "Yeah!", style: UIAlertAction.Style.default, handler: {[unowned self] action in
@@ -70,7 +70,7 @@ class AllCitiesViewController: MainBaseViewController, UITableViewDelegate, UITa
                     imgViewTitle.autoSetDimensions(to: CGSize(width: 30, height: 30))
                     alert.view.clipsToBounds = true
                     
-                    let nah = UIAlertAction(title: "Nah", style: UIAlertAction.Style.default, handler: nil)
+                    let nah = UIAlertAction(title: "Nope", style: UIAlertAction.Style.default, handler: nil)
                     nah.setValue(UIColor(netHex: AppSetting.Color.gray), forKey: "titleTextColor")
                     alert.addAction(nah)
                     alert.addAction(UIAlertAction(title: "Sure :)", style: UIAlertAction.Style.default, handler: {action in
